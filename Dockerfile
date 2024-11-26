@@ -27,7 +27,7 @@ ENTRYPOINT ["java", "-jar", "./app.jar"]
 #CMD ["java", "-jar", "app.jar"]
 
 
-#comandos docker
+##comandos docker
 
 #build
 #docker build -t my-app-image .
@@ -46,3 +46,23 @@ ENTRYPOINT ["java", "-jar", "./app.jar"]
 
 #remove a imagem
 #docker rmi my-app-image
+
+##comandos para repositorio
+
+#login
+#docker login -u user
+
+#build user to repo
+#docker build -t my_user/my_app_image:v1.0.0 .
+
+#run image container (source-port:dest-port)
+#docker run -d -p 80:80 --name my-container my_user/my_app_image:v1.0.0
+
+#push image to repo
+#docker push my_user/my_app_image:v1.0.0
+
+#pull repo image
+#docker pull my_user/my_app_image:v1.0.0
+
+#remove image
+#docker rmi my_user/my_app_image:v1.0.0
