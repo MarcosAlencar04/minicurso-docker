@@ -25,3 +25,24 @@ ENTRYPOINT ["java", "-jar", "./app.jar"]
 #WORKDIR /app
 #EXPOSE 8080
 #CMD ["java", "-jar", "app.jar"]
+
+
+#comandos docker
+
+#build
+#docker build -t my-app-image .
+
+#roda o container my-container da imagem my-app-image
+#docker run -d -o portadesaida:portaquetarodando --name my-container my-app-image
+
+#lista os containers que estao rodando
+#docker ps
+
+#para o container
+#docker stop my-container
+
+#remove o container
+#docker rm my-container
+
+#remove a imagem
+#docker rmi my-app-image
