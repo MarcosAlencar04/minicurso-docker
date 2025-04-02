@@ -1,8 +1,8 @@
-# Mini Curso de Docker - Backend com Java e Spring Boot
+# Docker Short course - Backend with Java and Spring Boot
 
-Projeto desenvolvido para um mini curso de Docker. Simula um backend simples usando Java com Spring Boot, containerizado com Docker.
+Project developed for a Docker mini course. Simulates a simple backend using Java with Spring Boot, containerized with Docker.
 
-## Tecnologias Utilizadas
-- Java
-- Spring Boot
+## Technologies Used
+- Java  
+- Spring Boot  
 - Docker
